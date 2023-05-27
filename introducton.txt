@@ -1,0 +1,13 @@
+The provided code utilizes the `pyshorteners` library to shorten a given URL. Here's an introduction to the code:
+
+1. The code begins by importing the `pyshorteners` module, which is a Python library used for URL shortening.
+
+2. The user is prompted to enter a URL that they want to shorten.
+
+3. The entered URL is stored in the `url` variable.
+
+4. The `pyshorteners.Shortener().tinyurl.short()` function is called to shorten the given URL using the TinyURL service provided by `pyshorteners`. This function takes the `url` as an argument.
+
+5. The shortened URL is printed to the console using the `print()` statement along with the message "URL AFTER SHORTENING :- ".
+
+Overall, this code allows the user to input a URL, and then it utilizes the `pyshorteners` library to shorten the URL using the TinyURL service. The shortened URL is then displayed on the console.
